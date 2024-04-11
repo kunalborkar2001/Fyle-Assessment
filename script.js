@@ -49,8 +49,8 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     function showModal(income, tax) {
-        resultDiv.innerHTML = `<p>Your Overall Income will be: Rs${income.toFixed(2)} Lakhs</p>
-                             <p>Tax: Rs${tax.toFixed(2)} Lakhs</p>`;
+        resultDiv.innerHTML = `<p>Your Overall Income will be: Rs ${income.toFixed(2)} Lakhs</p>
+                             <p>Tax: Rs ${tax.toFixed(2)} Lakhs</p>`;
         modal.style.display = 'block';
     }
 });
