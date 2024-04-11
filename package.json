@@ -1,0 +1,18 @@
+{
+  "name": "fyleassessment",
+  "version": "1.0.0",
+  "description": "Tax Calculator Web Application",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "jsdom": "^24.0.0"
+  }
+}
